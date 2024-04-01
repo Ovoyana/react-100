@@ -6,7 +6,7 @@ export default function Profile({name, tag, location, image, stats:{followers, v
           <div className={css.contents}>
             <img className={css.photo} src={image} alt="User avatar" />
             <p className={css.name}>{name}</p>
-            <p className={css.tag}>{tag}</p>
+            <p className={css.tag}>@{tag}</p>
             <p className={css.location}>{location}</p>
           </div>
     
